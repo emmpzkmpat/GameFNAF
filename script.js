@@ -27,14 +27,14 @@ let flashTextTimer = 0;
 
 // Cargar imágenes invasor especial
 const specialInvaderImage = new Image();
-specialInvaderImage.src = 'img/GOLDEN FREDYY.PNG'; // Cambia esta URL por la imagen que desees
+specialInvaderImage.src = 'GOLDEN FREDYY.PNG'; // Cambia esta URL por la imagen que desees
 const specialInvaderSpeed = 40;
 const specialInvaderSize = 55;
 const specialInvaderInterval = 40000;
 
 // Cargar imágenes jugador 
 const playerImage = new Image();
-playerImage.src = 'img/PURPLE GUY.PNG';
+playerImage.src = 'PURPLE GUY.PNG';
 
 //Si es en telefono
 function isMobileDevice() {
@@ -48,10 +48,10 @@ const invaderImages = [
     new Image(),
     new Image()
 ];
-invaderImages[0].src = 'img/BONNIE.PNG'; // Cambia estas URLs por las de tus imágenes
-invaderImages[1].src = 'img/CHICA.PNG';
-invaderImages[2].src = 'img/FOXY.PNG';
-invaderImages[3].src = 'img/FREDDY.PNG';
+invaderImages[0].src = 'BONNIE.PNG'; // Cambia estas URLs por las de tus imágenes
+invaderImages[1].src = 'CHICA.PNG';
+invaderImages[2].src = 'FOXY.PNG';
+invaderImages[3].src = 'FREDDY.PNG';
 
 // Inicialización del juego
 function initializeGame() {
