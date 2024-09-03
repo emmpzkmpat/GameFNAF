@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+    display: block;
+    margin: auto;
+    background-color: black;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+}
+
+#restartButton {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#restartButton:hover {
+    background-color: #3f0034;
+}
